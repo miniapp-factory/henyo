@@ -15,7 +15,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col gap-4 items-center p-4">
+    <main className="flex flex-col gap-4 items-center p-4 bg-yellow-100 min-h-screen">
       <h1 className="text-3xl font-bold">Filipino Trivia Bayani</h1>
       {!category ? (
         <CategorySelection onSelect={setCategory} />

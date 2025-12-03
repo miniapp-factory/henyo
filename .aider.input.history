@@ -104,3 +104,13 @@
 +If they failed, display a “Try Again” message.
 +
 +Everything must be self-contained, offline, and simple. Use only basic UI elements: text, buttons, and radio-choice answers. No points, no earning, no APIs, no internet.
+
+# 2025-12-03 06:03:11.711817
++Create a  Trivia Game that Also teaches About Philippine History and Culture. They must first choose the difficulty between easy,medium, and hard. 
++
++The quiz would be 10 items about the topic of ph history and afterwards . give them the score and assessment whether they passed or not
+
+# 2025-12-03 06:03:11.712339
++Create a  Trivia Game that Also teaches About Philippine History and Culture. They must first choose the difficulty between easy,medium, and hard. 
++
++The quiz would be 10 items about the topic of ph history and afterwards . give them the score and assessment whether they passed or not

@@ -1,5 +1,6 @@
 "use client";
-import { useState, useEffect } from "react";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 type Question = {

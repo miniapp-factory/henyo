@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import CategorySelection from "@/components/trivia/CategorySelection";
+import DifficultySelection from "@/components/trivia/DifficultySelection";
 import TriviaRound from "@/components/trivia/TriviaRound";
 import HeroResult from "@/components/trivia/HeroResult";
 

@@ -1,0 +1,24 @@
+
+# 2025-12-03 04:43:36.725414
++Code the following app
++```
++Create a simple Filipino-themed trivia app where all questions are generated internally by the AI. The app should begin with a category selection screen that presents Filipino-focused categories such as Philippine History, Filipino Culture and Traditions, Philippine Geography, Filipino Heroes, and Filipino Pop Culture. When the user selects a category, the app should automatically generate three to five trivia questions based only on the AI’s internal Filipino knowledge, with each question offering multiple-choice answers.
++
++After the user completes the round, the app should calculate the score and use it to adjust the difficulty for the next set of questions. If the user scores high, the next round should contain slightly harder Filipino trivia. If the user scores low, the next round should contain easier questions. The game should loop so the user can continue answering questions with the difficulty adjusting each round. All UI must remain simple, using only basic text, buttons, and radio-style multiple-choice options. The entire app must be offline and self-contained, without using any external data or APIs.
++
++Include a Play-to-Earn feature where users earn ten “Bayani Points” for each correct answer. These points should be stored locally inside the app and may be used to unlock categories, themes, or achievement badges. Also include a Learning Mode that the user can access before playing. In this mode, the app should display short, AI-generated educational facts about Filipino history, culture, heroes, and geography. All facts should also be generated internally by the AI.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-12-03 04:43:36.725899
++Code the following app
++```
++Create a simple Filipino-themed trivia app where all questions are generated internally by the AI. The app should begin with a category selection screen that presents Filipino-focused categories such as Philippine History, Filipino Culture and Traditions, Philippine Geography, Filipino Heroes, and Filipino Pop Culture. When the user selects a category, the app should automatically generate three to five trivia questions based only on the AI’s internal Filipino knowledge, with each question offering multiple-choice answers.
++
++After the user completes the round, the app should calculate the score and use it to adjust the difficulty for the next set of questions. If the user scores high, the next round should contain slightly harder Filipino trivia. If the user scores low, the next round should contain easier questions. The game should loop so the user can continue answering questions with the difficulty adjusting each round. All UI must remain simple, using only basic text, buttons, and radio-style multiple-choice options. The entire app must be offline and self-contained, without using any external data or APIs.
++
++Include a Play-to-Earn feature where users earn ten “Bayani Points” for each correct answer. These points should be stored locally inside the app and may be used to unlock categories, themes, or achievement badges. Also include a Learning Mode that the user can access before playing. In this mode, the app should display short, AI-generated educational facts about Filipino history, culture, heroes, and geography. All facts should also be generated internally by the AI.
++```
++
++Generate an app logo and update the app metadata title and description.

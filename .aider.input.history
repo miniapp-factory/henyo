@@ -114,3 +114,25 @@
 +Create a  Trivia Game that Also teaches About Philippine History and Culture. They must first choose the difficulty between easy,medium, and hard. 
 +
 +The quiz would be 10 items about the topic of ph history and afterwards . give them the score and assessment whether they passed or not
+
+# 2025-12-03 06:51:07.853826
++Create a Filipino trivia mini app.
++
++Start with a homepage where the user can choose Philippine History as a category.
++
++Then show 3–5 multiple-choice questions, one per screen. Use buttons for answers.
++
++After finishing the quiz, show how many questions the user answered correctly and display which Filipino hero they are most like based on their answers. Include a short description of the hero.
++
++Keep everything simple, offline, and self-contained. Use text, buttons, and basic colors (red, blue, yellow) for the UI.
+
+# 2025-12-03 06:51:07.854641
++Create a Filipino trivia mini app.
++
++Start with a homepage where the user can choose Philippine History as a category.
++
++Then show 3–5 multiple-choice questions, one per screen. Use buttons for answers.
++
++After finishing the quiz, show how many questions the user answered correctly and display which Filipino hero they are most like based on their answers. Include a short description of the hero.
++
++Keep everything simple, offline, and self-contained. Use text, buttons, and basic colors (red, blue, yellow) for the UI.

@@ -44,13 +44,40 @@ const questions: Question[] = [
     options: ["Mindanao", "Luzon", "Visayas", "Palawan"],
     answer: "Luzon",
   },
+  {
+    question: "Who wrote the national anthem of the Philippines?",
+    options: ["Jose Rizal", "Francisco Balagtas", "Jose P. Laurel", "Cesar Basa"],
+    answer: "Francisco Balagtas",
+  },
+  {
+    question: "What is the name of the first Filipino astronaut?",
+    options: ["Jose Mari Magsaysay", "Jose Mari", "Jose Mari", "Jose Mari"],
+    answer: "Jose Mari",
+  },
+  {
+    question: "Which Philippine province is known as the 'Rice Granary of the Philippines'?",
+    options: ["Cebu", "Ilocos", "Benguet", "Davao"],
+    answer: "Ilocos",
+  },
+  {
+    question: "What is the traditional Filipino garment worn by women called?",
+    options: ["Barong", "Terno", "Kimono", "Hanbok"],
+    answer: "Terno",
+  },
+  {
+    question: "Which Philippine city is known as the 'Pearl of the Orient'?",
+    options: ["Manila", "Cebu", "Davao", "Baguio"],
+    answer: "Manila",
+  },
 ];
 
 export default function TriviaRound({
   category,
+  difficulty,
   onComplete,
 }: {
   category: string;
+  difficulty: string;
   onComplete: (score: number, hero: string) => void;
 }) {
   const [current, setCurrent] = useState(0);

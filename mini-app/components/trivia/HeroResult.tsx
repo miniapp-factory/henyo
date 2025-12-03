@@ -17,11 +17,13 @@ export default function HeroResult({
   hero: string;
   score: number;
 }) {
+  const passed = score >= 5;
   return (
     <div className="flex flex-col gap-4 items-center">
       <h2 className="text-2xl font-bold">You resemble {hero}!</h2>
       <p className="text-center">{heroDescriptions[hero]}</p>
-      <p className="text-lg">Your score: {score}</p>
+      <p className="text-lg">Your score: {score} / 10</p>
+      <p className="text-lg">{passed ? "Passed" : "Try Again"}</p>
       <Button onClick={() => window.location.reload()}>Play Again</Button>
     </div>
   );

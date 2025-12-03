@@ -74,11 +74,9 @@ const questions: Question[] = [
 
 export default function TriviaRound({
   category,
-  difficulty,
   onComplete,
 }: {
   category: string;
-  difficulty: string;
   onComplete: (score: number, hero: string) => void;
 }) {
   const [current, setCurrent] = useState(0);

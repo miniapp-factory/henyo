@@ -36,3 +36,17 @@
 +After the user completes the round, the app should calculate the score and use it to adjust the difficulty for the next set of questions. If the user scores high, the next round should contain slightly harder Filipino trivia. If the user scores low, the next round should contain easier questions. The game should loop so the user can continue answering questions with the difficulty adjusting each round. All UI must remain simple, using only basic text, buttons, and radio-style multiple-choice options. The entire app must be offline and self-contained, without using any external data or APIs.
 +
 +Include a Play-to-Earn feature where users earn ten “Bayani Points” for each correct answer. These points should be stored locally inside the app and may be used to unlock categories, themes, or achievement badges. Also include a Learning Mode that the user can access before playing. In this mode, the app should display short, AI-generated educational facts about Filipino history, culture, heroes, and geography. All facts should also be generated internally by the AI.
+
+# 2025-12-03 05:18:43.542322
++Create a simple Filipino trivia mini app. The app should start with a category screen with just Philippine History. After the user selects it, generate 3–5 multiple-choice questions using only internal AI knowledge. Show one question per screen with basic text and buttons for answers.
++
++After the user answers all questions, the app should calculate the score and then assess which Filipino hero the user is closest to based on their answers (e.g., Jose Rizal, Andres Bonifacio, Gabriela Silang). Show the result with a short description of the hero.
++
++The game should be fully self-contained, offline, and simple, with no extra features, no points, no earning, no APIs, just trivia and hero assessment.
+
+# 2025-12-03 05:18:43.543420
++Create a simple Filipino trivia mini app. The app should start with a category screen with just Philippine History. After the user selects it, generate 3–5 multiple-choice questions using only internal AI knowledge. Show one question per screen with basic text and buttons for answers.
++
++After the user answers all questions, the app should calculate the score and then assess which Filipino hero the user is closest to based on their answers (e.g., Jose Rizal, Andres Bonifacio, Gabriela Silang). Show the result with a short description of the hero.
++
++The game should be fully self-contained, offline, and simple, with no extra features, no points, no earning, no APIs, just trivia and hero assessment.

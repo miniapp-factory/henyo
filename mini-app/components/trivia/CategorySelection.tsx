@@ -1,14 +1,7 @@
 "use client";
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-export const categories = [
-  "Philippine History",
-  "Filipino Culture and Traditions",
-  "Philippine Geography",
-  "Filipino Heroes",
-  "Filipino Pop Culture",
-];
+export const categories = ["Philippine History"];
 
 export default function CategorySelection({
   onSelect,

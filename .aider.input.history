@@ -50,3 +50,57 @@
 +After the user answers all questions, the app should calculate the score and then assess which Filipino hero the user is closest to based on their answers (e.g., Jose Rizal, Andres Bonifacio, Gabriela Silang). Show the result with a short description of the hero.
 +
 +The game should be fully self-contained, offline, and simple, with no extra features, no points, no earning, no APIs, just trivia and hero assessment.
+
+# 2025-12-03 05:48:00.048632
++Create a simple Filipino trivia mini app with the following flow:
++
++Homepage / Category Selection
++
++Let the user choose a category (for now, just Philippine History).
++
++Display as simple buttons.
++
++Quiz
++
++Generate 3–5 multiple-choice questions per category using only internal AI knowledge.
++
++Show one question per screen with basic text and buttons for answers.
++
++Score & Assessment
++
++After the user finishes all questions, calculate their score.
++
++Show the score and a simple assessment:
++
++If they passed (e.g., majority correct), display a “Passed” message.
++
++If they failed, display a “Try Again” message.
++
++Everything must be self-contained, offline, and simple. Use only basic UI elements: text, buttons, and radio-choice answers. No points, no earning, no APIs, no internet.
+
+# 2025-12-03 05:48:00.049937
++Create a simple Filipino trivia mini app with the following flow:
++
++Homepage / Category Selection
++
++Let the user choose a category (for now, just Philippine History).
++
++Display as simple buttons.
++
++Quiz
++
++Generate 3–5 multiple-choice questions per category using only internal AI knowledge.
++
++Show one question per screen with basic text and buttons for answers.
++
++Score & Assessment
++
++After the user finishes all questions, calculate their score.
++
++Show the score and a simple assessment:
++
++If they passed (e.g., majority correct), display a “Passed” message.
++
++If they failed, display a “Try Again” message.
++
++Everything must be self-contained, offline, and simple. Use only basic UI elements: text, buttons, and radio-choice answers. No points, no earning, no APIs, no internet.

@@ -1,14 +1,53 @@
-import { description, title } from "@/lib/metadata";
-import { generateMetadata } from "@/lib/farcaster-embed";
-
-export { generateMetadata };
+"use client";
+import { useState } from "react";
+import { PointsProvider } from "@/components/trivia/PointsContext";
+import CategorySelection from "@/components/trivia/CategorySelection";
+import TriviaRound from "@/components/trivia/TriviaRound";
+import PlayToEarn from "@/components/trivia/PlayToEarn";
+import LearningMode from "@/components/trivia/LearningMode";
 
 export default function Home() {
-  // NEVER write anything here, only use this page to import components
+  const [category, setCategory] = useState<string | null>(null);
+  const [difficulty, setDifficulty] = useState(3);
+  const [score, setScore] = useState<number | null>(null);
+
+  const handleComplete = (s: number, total: number) => {
+    setScore(s);
+    const newDiff = s / total > 0.7 ? difficulty + 1 : difficulty - 1;
+    setDifficulty(Math.max(1, Math.min(5, newDiff)));
+  };
+
   return (
-    <main className="flex flex-col gap-3 place-items-center place-content-center px-4 grow">
-      <span className="text-2xl">{title}</span>
-      <span className="text-muted-foreground">{description}</span>
-    </main>
+    <PointsProvider>
+      <main className="flex flex-col gap-4 items-center p-4">
+        <h1 className="text-3xl font-bold">Filipino Trivia Bayani</h1>
+        <PlayToEarn />
+        <LearningMode />
+        {!category ? (
+          <CategorySelection onSelect={setCategory} />
+        ) : score !== null ? (
+          <div className="text-center">
+            <p>
+              You scored {score} out of {difficulty}
+            </p>
+            <button
+              onClick={() => {
+                setScore(null);
+                setCategory(null);
+              }}
+              className="mt-2 px-4 py-2 bg-primary text-white rounded"
+            >
+              Play Again
+            </button>
+          </div>
+        ) : (
+          <TriviaRound
+            category={category}
+            difficulty={difficulty}
+            onComplete={handleComplete}
+          />
+        )}
+      </main>
+    </PointsProvider>
   );
 }
